@@ -4,7 +4,7 @@
 
 - A simple Library Management System built in C++
 
-- A group project built by Group 7 - IT001.Q110
+- A group project built by Group 7 - IT001.Q110. All details are linked [here](https://github.com/Coder-Blue/btn1-llm).
 
 ## My setup
 
