@@ -28,7 +28,7 @@ int main() {
 
     while (true) {
       clearConsole();
-      std::cout << "1. Login\n2. Register\n0. Exit\nChoice: ";
+      std::cout << "1. Login\n2. Signup\n0. Exit\nChoice: ";
 
       int opt;
       std::cin >> opt;

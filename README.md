@@ -2,7 +2,7 @@
 
 ## TLDR;
 
-- A simple Library Management System build in C++
+- A simple Library Management System built in C++
 
 ## My setup
 
@@ -19,7 +19,7 @@
 New-Item -ItemType Directory -Force -Path output; g++ -static -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output\app.exe
 
 # Clang
-New-Item -ItemType Directory -Force -Path output; clang++ -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output\app.exe
+New-Item -ItemType Directory -Force -Path output; clang++ -static -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output\app.exe
 ```
 
 - On Mac/Linux
@@ -28,8 +28,19 @@ New-Item -ItemType Directory -Force -Path output; clang++ -std=c++17 main.cpp li
 # sh
 
 # GCC
-if not exist output mkdir output & g++ -static -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output\app.exe
+mkdir -p output && g++ -static -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output/app
 
 # Clang
-if not exist output mkdir output & clang++ -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output\app.exe
+mkdir -p output && clang++ -static -std=c++17 main.cpp library.cpp book.cpp user.cpp -o output/app
+```
+
+# How to run
+
+- Run the `app.exe` on Windows.
+
+- Run this bash on Linux/MacOS:
+
+```bash
+#sh
+./output/app
 ```
