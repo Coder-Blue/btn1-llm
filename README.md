@@ -36,7 +36,7 @@ mkdir -p output && clang++ -static -std=c++17 main.cpp library.cpp book.cpp user
 
 # How to run
 
-- Run the `app.exe` on Windows.
+- Run the `app.exe` in the `output` folder on Windows.
 
 - Run this bash on Linux/MacOS:
 
