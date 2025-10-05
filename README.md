@@ -4,6 +4,8 @@
 
 - A simple Library Management System built in C++
 
+- A group project built by Group 7 - IT001.Q110
+
 ## My setup
 
 - I'm using [Clang](https://github.com/mstorsjo/llvm-mingw) to build C/C++ app. You can use [GCC](https://sourceforge.net/projects/mingw/) instead.
