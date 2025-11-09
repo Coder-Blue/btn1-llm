@@ -6,6 +6,13 @@
 
 - A group project built by Group 7 - IT001.Q110. All details are linked [here](https://github.com/Coder-Blue/btn1-llm).
 
+| Thành viên          | MSSV     |
+| ------------------- | -------- |
+| Trần Ngô Anh Quân   | 25521506 |
+| Đặng Hữu Huy        | 25520676 |
+| Nguyễn Lê Vinh Hưng | 25520641 |
+| Phan Bảo Huy        | 25520729 |
+
 ## My setup
 
 - I'm using [Clang](https://github.com/mstorsjo/llvm-mingw) to build C/C++ app. You can use [GCC](https://sourceforge.net/projects/mingw/) instead.
